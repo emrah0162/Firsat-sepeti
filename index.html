@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fırsat Sepeti</title>
+  <title>Fırsat Sepeti - Ürün Fırsatları</title>
+
   <style>
     * {
       box-sizing: border-box;
@@ -19,17 +21,18 @@
     header {
       background: #2563eb;
       color: white;
-      padding: 25px 15px;
+      padding: 30px 15px;
       text-align: center;
     }
 
     header h1 {
-      margin: 0 0 8px;
-      font-size: 30px;
+      margin: 0 0 10px;
+      font-size: 32px;
     }
 
     header p {
       margin: 0;
+      font-size: 18px;
     }
 
     .container {
@@ -40,11 +43,16 @@
 
     .welcome {
       text-align: center;
-      margin-bottom: 25px;
+      margin-bottom: 30px;
     }
 
     .welcome h2 {
       color: #2563eb;
+      font-size: 30px;
+    }
+
+    .welcome p {
+      font-size: 18px;
     }
 
     .products {
@@ -55,22 +63,25 @@
 
     .product {
       background: white;
-      border-radius: 12px;
-      padding: 20px;
+      border-radius: 16px;
+      padding: 25px 20px;
       box-shadow: 0 3px 12px #00000012;
       text-align: center;
     }
 
-    .product .emoji {
-      font-size: 50px;
+    .emoji {
+      font-size: 55px;
     }
 
     .product h3 {
       margin: 15px 0 10px;
+      font-size: 22px;
     }
 
     .product p {
       color: #666;
+      font-size: 16px;
+      line-height: 1.5;
     }
 
     .product a {
@@ -78,18 +89,24 @@
       background: #2563eb;
       color: white;
       text-decoration: none;
-      padding: 12px 20px;
+      padding: 13px 22px;
       border-radius: 8px;
       margin-top: 10px;
+      font-weight: bold;
+    }
+
+    .product a:hover {
+      background: #1d4ed8;
     }
 
     footer {
       text-align: center;
-      padding: 25px;
+      padding: 30px 15px;
       color: #666;
     }
   </style>
 </head>
+
 <body>
 
   <header>
@@ -98,40 +115,61 @@
   </header>
 
   <main class="container">
+
     <section class="welcome">
       <h2>Günün Fırsatları</h2>
       <p>İhtiyacın olan ürünleri uygun fiyatlarla bul.</p>
     </section>
 
     <section class="products">
+
       <div class="product">
         <div class="emoji">📱</div>
         <h3>Telefon Fırsatları</h3>
         <p>Akıllı telefon fırsatlarını keşfet.</p>
-        <a href="#">Fırsatları Gör</a>
+        <a href="https://www.amazon.com.tr/" target="_blank" rel="noopener">
+          Fırsatları Gör
+        </a>
       </div>
 
       <div class="product">
         <div class="emoji">🎧</div>
         <h3>Elektronik</h3>
         <p>Kulaklık ve teknoloji ürünleri.</p>
-        <a href="#">Fırsatları Gör</a>
+        <a href="https://www.amazon.com.tr/" target="_blank" rel="noopener">
+          Fırsatları Gör
+        </a>
       </div>
 
       <div class="product">
         <div class="emoji">🏠</div>
         <h3>Ev Ürünleri</h3>
         <p>Ev için kullanışlı ürünler.</p>
-        <a href="#">Fırsatları Gör</a>
+        <a href="https://www.amazon.com.tr/" target="_blank" rel="noopener">
+          Fırsatları Gör
+        </a>
+      </div>
+
+      <div class="product">
+        <div class="emoji">👗</div>
+        <h3>Elbise</h3>
+        <p>Kadın elbise ve giyim fırsatları.</p>
+        <a href="https://www.aliexpress.com/" target="_blank" rel="noopener">
+          Elbiseleri Gör
+        </a>
       </div>
 
       <div class="product">
         <div class="emoji">👟</div>
-        <h3>Giyim</h3>
-        <p>Giyim ve ayakkabı fırsatları.</p>
-        <a href="#">Fırsatları Gör</a>
+        <h3>Ayakkabı</h3>
+        <p>Spor ayakkabı ve günlük ayakkabı fırsatları.</p>
+        <a href="https://www.aliexpress.com/" target="_blank" rel="noopener">
+          Ayakkabıları Gör
+        </a>
       </div>
+
     </section>
+
   </main>
 
   <footer>
