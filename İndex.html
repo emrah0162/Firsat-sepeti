@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fırsat Sepeti</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #222;
+    }
+
+    header {
+      background: #2563eb;
+      color: white;
+      padding: 25px 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+    }
+
+    header p {
+      margin: 0;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 25px 15px;
+    }
+
+    .welcome {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .welcome h2 {
+      color: #2563eb;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 3px 12px #00000012;
+      text-align: center;
+    }
+
+    .product .emoji {
+      font-size: 50px;
+    }
+
+    .product h3 {
+      margin: 15px 0 10px;
+    }
+
+    .product p {
+      color: #666;
+    }
+
+    .product a {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🛒 Fırsat Sepeti</h1>
+    <p>En güzel ürün fırsatlarını keşfet!</p>
+  </header>
+
+  <main class="container">
+    <section class="welcome">
+      <h2>Günün Fırsatları</h2>
+      <p>İhtiyacın olan ürünleri uygun fiyatlarla bul.</p>
+    </section>
+
+    <section class="products">
+      <div class="product">
+        <div class="emoji">📱</div>
+        <h3>Telefon Fırsatları</h3>
+        <p>Akıllı telefon fırsatlarını keşfet.</p>
+        <a href="#">Fırsatları Gör</a>
+      </div>
+
+      <div class="product">
+        <div class="emoji">🎧</div>
+        <h3>Elektronik</h3>
+        <p>Kulaklık ve teknoloji ürünleri.</p>
+        <a href="#">Fırsatları Gör</a>
+      </div>
+
+      <div class="product">
+        <div class="emoji">🏠</div>
+        <h3>Ev Ürünleri</h3>
+        <p>Ev için kullanışlı ürünler.</p>
+        <a href="#">Fırsatları Gör</a>
+      </div>
+
+      <div class="product">
+        <div class="emoji">👟</div>
+        <h3>Giyim</h3>
+        <p>Giyim ve ayakkabı fırsatları.</p>
+        <a href="#">Fırsatları Gör</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    ©️ 2026 Fırsat Sepeti
+  </footer>
+
+</body>
+</html>
